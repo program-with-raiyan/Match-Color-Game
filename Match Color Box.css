@@ -1,0 +1,150 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.game {
+    display: flex;
+    background-image: url('20240330_104053.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.gameStaryBtn {
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    top: 70vh;
+    background-image: url('20240330_110154.png');
+    background-size: cover;
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('20240329_221456.jpg');
+    background-size: cover;
+    display: none;
+    justify-content: center;
+}
+
+.playBtn {
+    width: 58vw;
+    height: 16vh;
+    background-image: url('20240329_010616.png');
+    background-size: cover;
+    position: absolute;
+    top: 80vh;
+}
+
+.playBtn:active {
+    filter: blur(2vw)
+}
+
+.gamePage {
+    display: none;
+    background-image: url('20240329_220804.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.colorBox {
+    width: 15vw;
+    height: 15vw;
+    position: absolute;
+    border: 1px solid yellow;
+}
+
+#challangeColorBox {
+    top: -10vw;
+    background-color: aqua;
+    left: 50vw;
+    transform: translateX(-50%);
+
+}
+
+#red {
+    background-color: rgb(255, 0, 0);
+    bottom: 0;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#black {
+    background-color: rgb(0, 0, 0);
+    bottom: 20vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#changeColorBtn {
+    background-image: url('20240327_003610.png');
+    background-size: cover;
+    bottom: 10vh;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+
+#changeColorBtn:active {
+    filter: blur(1vw);
+}
+
+#green {
+    background-color: rgb(0, 255, 0);
+    bottom: 10vh;
+    left: 35vw;
+    transform: translateX(-50%);
+}
+
+#blue {
+    background-color: rgb(0, 0, 255);
+    bottom: 10vh;
+    right: 35vw;
+    transform: translateX(50%);
+}
+
+.score {
+    position: absolute;
+    top: 3vw;
+    left: 2vh;
+    width: 25vw;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: 5vw;
+    color: aqua;
+}
+
+.resultPage {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url('20240330_053657.jpg');
+    background-size: cover;
+    justify-content: center;
+}
+
+.backToHome {
+    width: 54vw;
+    height: 10vh;
+    background-image: url('20240330_000521.png');
+    background-size: cover;
+    position: absolute;
+    top: 80vh;
+}
+
+.yourScore {
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 50vh;
+    left: 75vw;
+    font-size: 8vh;
+    font-weight: bolder;
+    text-decoration: double underline red;
+}
